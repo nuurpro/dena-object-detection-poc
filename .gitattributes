@@ -1,0 +1,2 @@
+# Preserve release/provenance SHA-256 hashes across Windows and Linux checkouts.
+* -text whitespace=blank-at-eof,blank-at-eol,space-before-tab,cr-at-eol

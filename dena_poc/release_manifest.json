@@ -1,0 +1,184 @@
+{
+  "schema_version": 1,
+  "release": "DENA_PoC",
+  "version": "1.0",
+  "class_names": {
+    "0": "DENA"
+  },
+  "dataset_included": false,
+  "defaults": {
+    "conf": 0.25,
+    "iou": 0.45,
+    "imgsz": 1024
+  },
+  "files": [
+    {
+      "path": "AGENTS.md",
+      "archive_path": "dena_poc/AGENTS.md",
+      "bytes": 11171,
+      "sha256": "1c54121f7a75c7b26ff156cd4d28cca57ae91fce24a1a58d184f1f6c395215ec"
+    },
+    {
+      "path": "DEPLOYMENT_AGENT_INSTRUCTIONS.md",
+      "archive_path": "dena_poc/DEPLOYMENT_AGENT_INSTRUCTIONS.md",
+      "bytes": 11171,
+      "sha256": "1c54121f7a75c7b26ff156cd4d28cca57ae91fce24a1a58d184f1f6c395215ec"
+    },
+    {
+      "path": "README.md",
+      "archive_path": "dena_poc/README.md",
+      "bytes": 19681,
+      "sha256": "58cb7f0b997e6ec8dcf48cc99c813933b60c40368400da2e00479fd8c3bc2836"
+    },
+    {
+      "path": "README_DELIVERABLE.md",
+      "archive_path": "dena_poc/README_DELIVERABLE.md",
+      "bytes": 2926,
+      "sha256": "e5f77a31bcffac407c273e92e5beb50d462f320abddae1ada18c8549bfd6d0bd"
+    },
+    {
+      "path": "app.py",
+      "archive_path": "dena_poc/app.py",
+      "bytes": 5386,
+      "sha256": "8bc28c43c049166447f0d5f12d090e65ee4b8e72b34c250f908d77fe84931ea0"
+    },
+    {
+      "path": "configs/baseline.yaml",
+      "archive_path": "dena_poc/configs/baseline.yaml",
+      "bytes": 379,
+      "sha256": "8e421cef3dcca25563970aa4a5f61053a5145a5a0e46d68625e7f9ffff8a425e"
+    },
+    {
+      "path": "configs/data.yaml",
+      "archive_path": "dena_poc/configs/data.yaml",
+      "bytes": 128,
+      "sha256": "0ef38f4206e03caa9d7426e88c45287ae7fb0e94a0bcb9234dd363e6b2118db4"
+    },
+    {
+      "path": "infer.py",
+      "archive_path": "dena_poc/infer.py",
+      "bytes": 12133,
+      "sha256": "477a648842d2cb9166ecbcd313b143514b80db043260a576219cb51b649bd119"
+    },
+    {
+      "path": "manifest.json",
+      "archive_path": "dena_poc/manifest.json",
+      "bytes": 70109,
+      "sha256": "cdf9088dc4de58d3f6d166c1006f5f4258bec0702d1ee1b2b8a18a6979546ced"
+    },
+    {
+      "path": "outputs/benchmark_eval/4647_comparison.png",
+      "archive_path": "dena_poc/outputs/benchmark_eval/4647_comparison.png",
+      "bytes": 977473,
+      "sha256": "4a1ff5e735f34adff85d475a917cac9f34b99d82e638ddd89583fa01d2694498"
+    },
+    {
+      "path": "outputs/benchmark_eval/5140_comparison.png",
+      "archive_path": "dena_poc/outputs/benchmark_eval/5140_comparison.png",
+      "bytes": 929416,
+      "sha256": "461bed2bbbcdce3617144ca649dfcfcc3935cd787f74311f7055d4daa86e82ce"
+    },
+    {
+      "path": "outputs/benchmark_eval/5303_comparison.png",
+      "archive_path": "dena_poc/outputs/benchmark_eval/5303_comparison.png",
+      "bytes": 1292043,
+      "sha256": "d0cae9e000483bd4ef3a8fa0aec1c087b569008ed1f8ad2a1c85744e00396227"
+    },
+    {
+      "path": "outputs/benchmark_eval/7663_comparison.png",
+      "archive_path": "dena_poc/outputs/benchmark_eval/7663_comparison.png",
+      "bytes": 859878,
+      "sha256": "55b77afb7b79043860caef2859206ae5861b985ba6ac90bf458fb806c034a2bc"
+    },
+    {
+      "path": "outputs/benchmark_eval/9615_comparison.png",
+      "archive_path": "dena_poc/outputs/benchmark_eval/9615_comparison.png",
+      "bytes": 911552,
+      "sha256": "6f44cd0507b5a2e7db85c65b4844862db8e4394c844b269937af557fc432796f"
+    },
+    {
+      "path": "outputs/benchmark_eval/evaluation.json",
+      "archive_path": "dena_poc/outputs/benchmark_eval/evaluation.json",
+      "bytes": 199878,
+      "sha256": "f17e3af37121543cb0573a444856dc2d562e494e684a4b0660d24c0d00e54ec8"
+    },
+    {
+      "path": "outputs/benchmark_eval/metrics.csv",
+      "archive_path": "dena_poc/outputs/benchmark_eval/metrics.csv",
+      "bytes": 1404,
+      "sha256": "4d048117bb1ddf600519eb5d9eb8d467c00f9e20adba78909f934fbece6d176c"
+    },
+    {
+      "path": "outputs/benchmark_eval/report.md",
+      "archive_path": "dena_poc/outputs/benchmark_eval/report.md",
+      "bytes": 12111,
+      "sha256": "560d6c5f5aea51cd67a0f0c943e71e5a836cecd8ef612313c1b2d1c1eee12fe6"
+    },
+    {
+      "path": "outputs/benchmark_eval/visual_review.json",
+      "archive_path": "dena_poc/outputs/benchmark_eval/visual_review.json",
+      "bytes": 7460,
+      "sha256": "b0ab3ae2b2679db8dc94227331fb6b8a35931c1ab34ef9799f2aef710fdb6282"
+    },
+    {
+      "path": "requirements.txt",
+      "archive_path": "dena_poc/requirements.txt",
+      "bytes": 2112,
+      "sha256": "f9d7345a2cfbff96506aae31923dd1c87b23ff7ddf6d1dbb29ef24e061f3924a"
+    },
+    {
+      "path": "runs/detect/dena_baseline/results.csv",
+      "archive_path": "dena_poc/runs/detect/dena_baseline/results.csv",
+      "bytes": 4033,
+      "sha256": "25598d23e4e5c48500adc6b79d647a97c1c6fff6879355f5a182f4662c10d5e0"
+    },
+    {
+      "path": "runs/detect/dena_baseline/training_summary.json",
+      "archive_path": "dena_poc/runs/detect/dena_baseline/training_summary.json",
+      "bytes": 1812,
+      "sha256": "7beed40e5cfda17767135165737b07d5c2bda5d11776ea301e092a604839f21e"
+    },
+    {
+      "path": "runs/detect/dena_baseline/weights/best.pt",
+      "archive_path": "dena_poc/runs/detect/dena_baseline/weights/best.pt",
+      "bytes": 22565482,
+      "sha256": "a7dcd88dd5c5f56e19e3e2fec584cc088d04eb0bfde8205f64dd4fc4b4ce9225"
+    },
+    {
+      "path": "scripts/convert_anylabeling_to_yolo.py",
+      "archive_path": "dena_poc/scripts/convert_anylabeling_to_yolo.py",
+      "bytes": 13070,
+      "sha256": "b34fe84d2c3eca8fdf31683d73bed79cdd637faaed2a0a6e19fde44d2b45985d"
+    },
+    {
+      "path": "scripts/dataset_utils.py",
+      "archive_path": "dena_poc/scripts/dataset_utils.py",
+      "bytes": 9244,
+      "sha256": "11d225080ba07b4703bdc3345ac413e21b70326cf59d61fa353103ec809fd685"
+    },
+    {
+      "path": "scripts/eval_benchmarks.py",
+      "archive_path": "dena_poc/scripts/eval_benchmarks.py",
+      "bytes": 23321,
+      "sha256": "033eaac97f5823a5632532733e11dd89d7defe73c48b1ac789c7aeed2ae6ddf4"
+    },
+    {
+      "path": "scripts/package_deliverables.py",
+      "archive_path": "dena_poc/scripts/package_deliverables.py",
+      "bytes": 10498,
+      "sha256": "60c50599d9048c4210103044ca7c5507ad47f78f00f947e9f10aff55ff5954f1"
+    },
+    {
+      "path": "scripts/setup_dataset.py",
+      "archive_path": "dena_poc/scripts/setup_dataset.py",
+      "bytes": 18311,
+      "sha256": "817f8026a2aad067d9b2156c2e483544b9852f8743291c406e36d0654166d27a"
+    },
+    {
+      "path": "scripts/train_baseline.py",
+      "archive_path": "dena_poc/scripts/train_baseline.py",
+      "bytes": 13890,
+      "sha256": "fa5cfc49356141998b3d3c4bc69f132b04dec616e1279fe807fe62571ee64789"
+    }
+  ]
+}

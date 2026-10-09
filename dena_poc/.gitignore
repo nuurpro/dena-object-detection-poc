@@ -1,0 +1,36 @@
+.venv/
+__pycache__/
+.pytest_cache/
+dataset/images/
+dataset/labels/
+*.pt
+*.onnx
+models/
+.env
+.env.*
+
+# Retain only the locked benchmark evidence, not uploads or generated inference.
+outputs/*
+!outputs/benchmark_eval/
+outputs/benchmark_eval/*
+!outputs/benchmark_eval/report.md
+!outputs/benchmark_eval/evaluation.json
+!outputs/benchmark_eval/metrics.csv
+!outputs/benchmark_eval/visual_review.json
+!outputs/benchmark_eval/5303_comparison.png
+!outputs/benchmark_eval/4647_comparison.png
+!outputs/benchmark_eval/5140_comparison.png
+!outputs/benchmark_eval/9615_comparison.png
+!outputs/benchmark_eval/7663_comparison.png
+
+# Keep the deployable checkpoint and training provenance only.
+runs/*
+!runs/detect/
+runs/detect/*
+!runs/detect/dena_baseline/
+runs/detect/dena_baseline/*
+!runs/detect/dena_baseline/results.csv
+!runs/detect/dena_baseline/training_summary.json
+!runs/detect/dena_baseline/weights/
+runs/detect/dena_baseline/weights/*
+!runs/detect/dena_baseline/weights/best.pt

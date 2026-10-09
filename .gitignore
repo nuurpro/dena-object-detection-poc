@@ -1,0 +1,6 @@
+# Keep unrelated workspace archives, caches and experiments out of this repository.
+/*
+!/.gitignore
+!/.gitattributes
+!/README.md
+!/dena_poc/

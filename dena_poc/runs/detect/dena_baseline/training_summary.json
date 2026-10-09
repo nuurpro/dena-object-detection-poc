@@ -1,0 +1,61 @@
+{
+  "status": "completed",
+  "model": "yolov8s.pt",
+  "gpu": "NVIDIA GeForce RTX 3060 Laptop GPU",
+  "torch_version": "2.14.1+cu126",
+  "ultralytics_version": "8.4.171",
+  "epochs_requested": 50,
+  "epochs_completed": 33,
+  "training_args": {
+    "epochs": 50,
+    "imgsz": 1024,
+    "batch": 4,
+    "amp": true,
+    "workers": 4,
+    "project": "E:\\Coding\\Shelf_recognition\\dena_poc\\runs\\detect",
+    "name": "dena_baseline",
+    "patience": 12,
+    "seed": 42,
+    "scale": 0.5,
+    "fliplr": 0.5,
+    "mosaic": 1.0,
+    "hsv_h": 0.01,
+    "hsv_s": 0.3,
+    "hsv_v": 0.2,
+    "nbs": 8,
+    "data": "E:\\Coding\\Shelf_recognition\\dena_poc\\configs\\data.yaml",
+    "device": 0,
+    "exist_ok": true,
+    "save": true,
+    "val": true,
+    "split": "val",
+    "cache": false,
+    "compile": false
+  },
+  "accumulate": 2,
+  "effective_batch_size": 8,
+  "test_split": "test",
+  "test_metrics": {
+    "mAP50": 0.7412915235712315,
+    "mAP50_95": 0.49069658135090044,
+    "precision": 0.71623223498641,
+    "recall": 0.8309859154929577
+  },
+  "training_seconds": 176.1995182998944,
+  "test_seconds": 6.070056900149211,
+  "duration_seconds": 182.26957520004362,
+  "gpu_memory": {
+    "free_mib": 4412.0,
+    "total_mib": 6143.5,
+    "allocated_mib": 74.65,
+    "reserved_mib": 670.0,
+    "peak_allocated_mib": 2265.42,
+    "peak_reserved_mib": 2350.0
+  },
+  "artifacts": {
+    "best_weights": "E:\\Coding\\Shelf_recognition\\dena_poc\\runs\\detect\\dena_baseline\\weights\\best.pt",
+    "last_weights": "E:\\Coding\\Shelf_recognition\\dena_poc\\runs\\detect\\dena_baseline\\weights\\last.pt",
+    "results_csv": "E:\\Coding\\Shelf_recognition\\dena_poc\\runs\\detect\\dena_baseline\\results.csv"
+  },
+  "test_artifacts": "E:\\Coding\\Shelf_recognition\\dena_poc\\runs\\detect\\dena_baseline\\test_evaluation"
+}

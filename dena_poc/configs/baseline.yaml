@@ -1,0 +1,19 @@
+# RTX 3060 baseline. Training is explicit; dataset setup never downloads weights.
+model: yolov8s.pt
+epochs: 50
+imgsz: 1024
+batch: 4
+accumulate: 2
+amp: true
+workers: 4
+project: runs/detect
+name: dena_baseline
+patience: 12
+seed: 42
+scale: 0.5
+fliplr: 0.5
+mosaic: 1.0
+hsv_h: 0.01
+hsv_s: 0.3
+hsv_v: 0.2
+# Require explicit user authorization and complete annotations before training.
